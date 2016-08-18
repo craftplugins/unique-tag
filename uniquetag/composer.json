@@ -1,0 +1,14 @@
+{
+	"name": "joshuabaker/uniquetag",
+	"description": "Prevent duplicate tags from being saved in the same group.",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Joshua Baker",
+			"homepage": "https://joshuabaker.com/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
