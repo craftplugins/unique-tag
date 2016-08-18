@@ -2,7 +2,7 @@
 
 Prevent duplicate tags from being saved in the same group.
 
-![Icon](resources/icon.svg)
+![Icon](uniquetag/resources/icon.svg)
 
 ## Installation
 
