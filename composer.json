@@ -1,5 +1,5 @@
 {
-	"name": "joshuabaker/uniquetag",
+	"name": "joshuabaker/craft-unique-tag",
 	"description": "Prevent duplicate tags from being saved in the same group.",
 	"type": "craft-plugin",
 	"authors": [
