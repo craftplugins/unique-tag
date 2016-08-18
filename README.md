@@ -1,8 +1,8 @@
+<img src="https://rawgit.com/joshuabaker/craft-unique-tag/master/uniquetag/resources/icon.svg" width="72">
+
 # Unique Tag plugin for Craft CMS
 
 Prevent duplicate tags from being saved in the same group.
-
-<img src="https://rawgit.com/joshuabaker/craft-unique-tag/master/uniquetag/resources/icon.svg" width="72">
 
 ## Installation
 
