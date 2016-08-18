@@ -1,16 +1,16 @@
 <?php
+
 /**
- * Unique Tag plugin for Craft CMS
+ * Unique Tag plugin for Craft CMS.
  *
  * Prevent duplicate tags from being saved in the same group.
  *
  * @author    Joshua Baker
  * @copyright Copyright (c) 2016 Joshua Baker
+ *
  * @link      https://joshuabaker.com/
- * @package   UniqueTag
  * @since     0.1.0
  */
-
 namespace Craft;
 
 class UniqueTagPlugin extends BasePlugin
@@ -20,7 +20,7 @@ class UniqueTagPlugin extends BasePlugin
      */
     public function init()
     {
-        craft()->on('tags.onBeforeSaveTag', function(Event $event) {
+        craft()->on('tags.onBeforeSaveTag', function (Event $event) {
             $tag = $event->params['tag'];
             $isNewTag = $event->params['isNewTag'];
 
@@ -38,7 +38,7 @@ class UniqueTagPlugin extends BasePlugin
      */
     public function getName()
     {
-         return Craft::t('Unique Tag');
+        return Craft::t('Unique Tag');
     }
 
     /**
@@ -54,7 +54,7 @@ class UniqueTagPlugin extends BasePlugin
      */
     public function getDocumentationUrl()
     {
-        return 'https://github.com/joshuabaker/uniquetag/blob/master/README.md';
+        return 'https://github.com/joshuabaker/craft-unique-tag/blob/master/README.md';
     }
 
     /**
@@ -62,7 +62,7 @@ class UniqueTagPlugin extends BasePlugin
      */
     public function getReleaseFeedUrl()
     {
-        return 'https://raw.githubusercontent.com/joshuabaker/uniquetag/master/releases.json';
+        return 'https://raw.githubusercontent.com/joshuabaker/craft-unique-tag/master/releases.json';
     }
 
     /**
