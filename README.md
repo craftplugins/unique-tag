@@ -1,4 +1,6 @@
-<img src="https://rawgit.com/joshuabaker/craft-unique-tag/master/uniquetag/resources/icon.svg" width="72">
+> [!IMPORTANT]
+>
+> **This plugin is no longer maintained.**
 
 # Unique Tag plugin for Craft CMS
 
